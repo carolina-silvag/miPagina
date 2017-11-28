@@ -10,6 +10,7 @@
   }
 }
 
+
 @media (min-width: 200px) and (max-width: 534px) {
   [class*="col-"]{
     width: 100%;
