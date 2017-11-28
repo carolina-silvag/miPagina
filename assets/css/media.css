@@ -1,0 +1,27 @@
+@media (min-width: 535px) and (max-width: 824px) {
+  [class*="col-"]{
+    width: 100%;
+  }
+  [class*="visible"]{
+    display: none;
+  }
+  [class*="oculto"]{
+    display: inline-block;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 534px) {
+  [class*="col-"]{
+    width: 100%;
+  }
+  [class*="title"]{
+    margin: 0;
+    margin-top: 10%;
+  }
+  [class*="visible"]{
+    display: none;
+  }
+  [class*="oculto"]{
+    display: inline-block;
+  }
+}
